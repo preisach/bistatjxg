@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>   
+
+	<title>Bistat Demo</title>
+	<!-- <title>Non-Ideal Relay Demo</title> -->
+	<!-- <title>Thermostat Demo</title> -->
+
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta charset="UTF-8">   	
+
+    <link href="src/css/jsxgraph.css" rel="stylesheet" type="text/css"/>
+	<link rel="stylesheet" type="text/css" href="src/css/relay.css">
+    <!-- 
+	<script type="text/javascript" charset="UTF-8" 
+			src="https://cdnjs.cloudflare.com/ajax/libs/jsxgraph/0.99.7/jsxgraphcore.js"></script>
+			 -->
+    <script src="src/js/lib/jsxgraphcore.js" type="text/javascript"></script>
+
+   	<script src="src/js/lib/require.js" data-main="src/js/control.js"></script>	
+</head>
+
+<body>	
+	<!-- 
+		<header>
+			<h1>Relay Demo</h1>
+			<div id="intro"; style="font:24pt">
+			<h3></h3>		
+				click and drag these elements: boxes, red dots, dashed lines. <br />
+				press shift + mouse wheel to zoom,<br />
+				press shift + drag to pan
+			</div>
+		</header>
+	 -->	
+	<div 	id="IO-plus-slide">
+		<div id="jxg-InOut" class="jxgbox" ></div>
+		<div id="jxg-In" class="jxgbox"></div>			
+		<div id="jxg-PreisachPlane" class="jxgbox"></div>
+	</div>
+	<!-- 
+		<div id="jxg-IO-v-time" class="jxgbox" 
+			style="width: 22cm;
+				height: 7cm;
+				float:left;
+				margin:0px 20px"></div>	
+	-->
+	<!-- 
+		<script	type="text/javascript" src="./jxg/jxg-IO.js"></script>		
+		<script type="text/javascript" src="./jxg/jxg-IO-slider.js"></script>
+		<script	type="text/javascript" src="./jxg/jxg-Preisach-plane2.js"></script>
+ 	-->
+
+</body>
+</html>

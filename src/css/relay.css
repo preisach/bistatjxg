@@ -1,0 +1,30 @@
+body, div {
+ 	margin: 0 auto;
+ 	border: none;
+ 	padding: 0;
+ 	box-sizing: border-box;
+	/*display: grid;*/
+/*     wrap: wrap; */
+	/*grid-template-columns: 60% 20% 20%; */
+}
+
+#IO-plus-slide {
+	/*width: 7cm;*/
+	height: 100vh;
+	float:left;
+	margin-left: 20px;
+}
+#jxg-InOut {
+	width: 47vh;
+	height: 47vh;
+}
+
+#jxg-In {
+	width: 47vh;
+	height: 6vh;
+}
+
+#jxg-PreisachPlane {
+	width: 47vh;
+	height: 47vh;
+}
